@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gem "dotenv", "3.1.4"
 gem "jekyll", "3.10.0"
-gem "jekyll-github-metadata" # No specific version to align with github-pages
 gem "webrick", "1.8.2"
 gem "github-pages", "232"
 gem "i18n", "1.14.6"

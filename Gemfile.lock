@@ -284,7 +284,6 @@ DEPENDENCIES
   github-pages (= 232)
   i18n (= 1.14.6)
   jekyll (= 3.10.0)
-  jekyll-github-metadata
   json (= 2.7.4)
   logger (= 1.6.1)
   minitest (= 5.25.1)
