@@ -450,9 +450,9 @@ a {
   .timeline:before {
     background: linear-gradient(to bottom,
         #f3f3f3 0%,
-        #000000 8%,
-        #f56942 92%,
-        #4b42f5 100%);
+        #FFC0CB 8%, 
+        #FFC0CB 92%,
+        #FFC0CB 100%);
     content: " ";
     height: 100%;
     left: 50%;
