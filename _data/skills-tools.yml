@@ -17,20 +17,45 @@
 - name: AWS
   weight: 1
 
+- name: Terraform
+  weight: 1
+
 - name: Jenkins
   weight: 4
 
 - name: Linux
   weight: 2
 
-- name: npm
+- name: Jupyter
   weight: 2
 
-- name: gulp
-  weight: 1
-
-- name: VS Code
+- name: Anaconda
   weight: 3
 
+- name: VS Code
+  weight: 1
+
+- name: Weka
+  weight: 1
+
 - name: Postman
-  weight: 4
+  weight: 2
+
+- name: Confluence
+  weight: 2
+
+- name: Jira
+  weight: 5
+
+- name: Tableau
+  weight: 3
+
+- name: Open AI API
+  weight: 2
+
+- name: Docker
+  weight: 2
+
+- name: Kubernetes
+  weight: 2
+

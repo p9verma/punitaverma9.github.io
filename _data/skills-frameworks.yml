@@ -15,19 +15,31 @@
   weight: 4
 
 - name: OpenCV
-  weight: 1
-
-- name: Flutter
   weight: 2
 
-- name: GIT
+- name: Scikit-learn
+  weight: 2
+
+- name: LangChain
   weight: 3
 
-- name: OpenCV
+- name: Transformers
   weight: 1
 
-- name: Docker
+- name: Transfer learning
+  weight: 1
+
+- name: Model evaluation
+  weight: 1
+
+- name: Data Science
+  weight: 4
+
+- name: Jekyll
+  weight: 1
+
+- name: RICE
   weight: 2
 
-- name: Kubernetes
+- name: CI/CD
   weight: 2
