@@ -12,14 +12,37 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0' # specify your Ruby version
+        ruby-version: '3.0'
+
+    - name: Cache gems
+      uses: actions/cache@v3
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
     - name: Install dependencies
       run: bundle install
+
     - name: Build the site
-      run: bundle exec jekyll build
+      run: JEKYLL_ENV=production bundle exec jekyll build
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+        
+    - name: Install CSS minifier
+      run: npm install -g cssnano-cli
+
+    - name: Minify CSS files
+      run: find ./_site -name "*.css" -exec cssnano {} {} \;
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
