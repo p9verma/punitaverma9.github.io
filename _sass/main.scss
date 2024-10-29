@@ -356,7 +356,7 @@ a {
 
   @keyframes colorBlackIcon {
     to {
-      stroke: #000;
+      stroke: #fccfd6;
     }
   }
 
@@ -450,9 +450,9 @@ a {
   .timeline:before {
     background: linear-gradient(to bottom,
         #f3f3f3 0%,
-        #d5d5d5 8%,
-        #d5d5d5 92%,
-        #f3f3f3 100%);
+        #000000 8%,
+        #f5694292%,
+        #4b42f5 100%);
     content: " ";
     height: 100%;
     left: 50%;
