@@ -2,15 +2,21 @@ setTimeout(function () {
   fadeOutPreloader(document.getElementById('preloader'), 69);
 }, 1500);
 
-$(document).ready(function () {
-  $(window).on('beforeunload', function () {
-    window.scrollTo(0, 0);
-  });
+// $(document).ready(function () {
+//   $(window).on('beforeunload', function () {
+//     window.scrollTo(0, 0);
+//   });
 
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS.load('landing', 'assets/particles.json', function () {
-    console.log("particles.json successfully loaded");
+//   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+//   particlesJS.load('landing', 'assets/particles.json', function () {
+//     console.log("particles.json successfully loaded");
+//   });
+// assets/js/app.js
+$(document).ready(function() {
+  particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('particles.js config loaded');
   });
+});
 
 
   // Typing Text
