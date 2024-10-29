@@ -17,21 +17,21 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
+- title: General Dynamics Information Technology
   title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+  date: December 2023 - Present
+  subtitle: Senior Data Scientist - AI Researcher
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Python
+    - tag: Tensorflow
+    - tag: AWS
+    - tag: CNN
   timeline-side: right
 
 - title: Google
   title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+  date: Feb 2024 - Dec 2024
+  subtitle: Software Developer
   tags:
     - tag: Flutter
     - tag: Dart
@@ -59,3 +59,9 @@
   date: 2014 - 2017
   subtitle: B.A. Computer Science
   timeline-side: left
+
+- title: Super University
+  title-url: https://example.com/
+  date: 2014 - 2017
+  subtitle: B.A. Computer Science
+  timeline-side: right
