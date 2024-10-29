@@ -102,7 +102,7 @@ function jekyll(done) {
  */
 function watchData() {
   gulp.watch(
-    ['_data/*.yml', '_config.yml', 'assets/*.json'],
+    ['_data/*.yml', '_config.yml', 'assets/*.json', 'assets/particles.json'],
     gulp.series(jekyll, browserSyncReload)
   );
 }
@@ -128,10 +128,10 @@ function watch() {
 
 var compile = gulp.parallel(styles, stylesVendors, scripts, scriptsVendors);
 var serve = gulp.series(compile, jekyll, browserSyncServe);
-var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
+var watchTasks = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the Jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', gulp.parallel(serve, watch));
+gulp.task('default', gulp.parallel(serve, watchTasks));
