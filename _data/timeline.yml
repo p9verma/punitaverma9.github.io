@@ -54,14 +54,14 @@
     - tag: Javascript
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Virginia Tech 
+  title-url: https://cs.vt.edu/
+  date: 2017 - 2021
+  subtitle: B.S. Computer Science, Minor Cybersecurity
   timeline-side: left
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Children's Science Center
+  title-url: https://www.childsci.org/
+  date: 2016 - 2017
+  subtitle: STEMtender
   timeline-side: right
