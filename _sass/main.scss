@@ -14,11 +14,11 @@ $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
 $text-color: #000000 !default;
-$bg-color: rgb(0, 0, 0);
+$bg-color: rgb(245, 245, 247);
 // 255, 238, 252
 $card-bg-color: linear-gradient(145deg,
-    rgba(245, 245, 247) 15%,
-    rgb(245, 245, 247) 80%);
+    rgba(245, 245, 247) 0%,
+    rgb(221, 221, 221) 100%);
 // 232, 245, 222
 $primary-color: #5a565b;
 
