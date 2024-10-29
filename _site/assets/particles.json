@@ -1,0 +1,43 @@
+{
+  "particles": {
+    "number": {
+      "value": 60
+    },
+    "color": {
+      "value": "#D8BFD8"
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "value": 4,
+      "random": true
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 140,
+      "color": "#D8BFD8",
+      "opacity": 0.6,
+      "width": 1.5
+    },
+    "move": {
+      "speed": 0.7,
+      "random": true,
+      "direction": "top",
+      "attract": {
+        "enable": true,
+        "rotateX": 800,
+        "rotateY": 1600
+      }
+    },
+    "opacity": {
+      "value": 0.9,
+      "anim": {
+        "enable": true,
+        "speed": 1.2,
+        "opacity_min": 0.3,
+        "sync": false
+      }
+    }
+  }
+}
