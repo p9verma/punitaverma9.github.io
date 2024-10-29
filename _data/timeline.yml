@@ -16,20 +16,19 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
-
 - title: GDIT
   title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
   date: December 2023 - Present
   subtitle: Senior Data Scientist - AI Researcher
   tags:
     - tag: CNNs
-    - tag: Tranformers
+    - tag: Transformers
     - tag: Transfer Learning
     - tag: Model Development
     - tag: Data Science
   timeline-side: right
 
-  - title: General Dynamics Information Technology
+- title: General Dynamics Information Technology
   title-url: https://www.gdit.com/
   date: October 2023
   subtitle: Financial Analysis Product Data Lead
@@ -40,7 +39,7 @@
     - tag: CNN
   timeline-side: left
 
-  - title: General Dynamics Information Technology
+- title: General Dynamics Information Technology
   title-url: https://www.gdit.com/
   date: February 2023 - December 2023
   subtitle: Software Developer
@@ -50,7 +49,7 @@
     - tag: Agile/Scrum
   timeline-side: right
 
- - title: Johns Hopkins University
+- title: Johns Hopkins University
   title-url: https://www.jhu.edu/academics/graduate-studies/
   date: January 2023
   subtitle: M.S. Artificial Intelligence
@@ -126,7 +125,7 @@
     - tag: RDBMS
   timeline-side: right
 
-- title: Virginia Tech 
+- title: Virginia Tech
   title-url: https://cs.vt.edu/
   date: August 2017
   subtitle: B.S. Computer Science, Minor Cybersecurity
