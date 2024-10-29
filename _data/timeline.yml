@@ -18,45 +18,117 @@
 #   timeline-side: right
 
 - title: General Dynamics Information Technology
-  title-url: https://example.com/
+  title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
   date: December 2023 - Present
   subtitle: Senior Data Scientist - AI Researcher
+  tags:
+    - tag: CNNs
+    - tag: Tranformers
+    - tag: Transfer Learning
+    - tag: Model Development
+    - tag: Data Science
+  timeline-side: right
+
+  - title: General Dynamics Information Technology
+  title-url: https://www.gdit.com/
+  date: October 2023
+  subtitle: Financial Analysis Product Data Lead
   tags:
     - tag: Python
     - tag: Tensorflow
     - tag: AWS
     - tag: CNN
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Feb 2024 - Dec 2024
-  subtitle: Software Developer
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+  - title: General Dynamics Information Technology
+  title-url: https://www.gdit.com/
+  date: February 2023 - December 2023
+  subtitle: Software Developer
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Ruby on Rails
+    - tag: JavaScript
+    - tag: Agile/Scrum
+  timeline-side: right
+
+ - title: Johns Hopkins University
+  title-url: https://www.jhu.edu/academics/graduate-studies/
+  date: January 2023
+  subtitle: M.S. Artificial Intelligence
+  tags:
+    - tag: AI/intelligent algorithms
+    - tag: LLMS
+    - tag: Python
+    - tag: Machine Learning
+  timeline-side: left
+
+- title: Expedia Group
+  title-url: https://expediagroup.com/
+  date: Feb 2024 - Dec 2024
+  subtitle: Software Engineer II
+  tags:
+    - tag: Site Observability
+    - tag: Conversation Platform - Chatbot
+    - tag: Intelligent Services
+  timeline-side: right
+
+- title: Expedia Group - Rotational Program
+  title-url: https://expediagroup.com/
+  date: Feb 2024 - Dec 2024
+  subtitle: Software Engineer I
+  tags:
+    - tag: Payments
+    - tag: Datadog
+    - tag: Kubernetes
+  timeline-side: left
+
+- title: Expedia Group - Rotational Program
+  title-url: https://expediagroup.com/
+  date: Feb 2024 - Dec 2024
+  subtitle: Software Engineer I
+  tags:
+    - tag: Risk Data Team
+    - tag: AWS Glue
+    - tag: Fraud Detection
+  timeline-side: right
+
+- title: Virginia Tech
+  title-url: https://news.vt.edu/awards/students/deans-list/deans-list-spring-2021.html
+  date: May 2021
+  subtitle: Graduated Computer Science
+  timeline-side: left
+
+- title: Future Housing Leaders (Fannie Mae)
+  title-url: https://www.futurehousingleaders.com/?fbclid=IwY2xjawGNULRleHRuA2FlbQIxMAABHS70AzHUQn64Ev7HX2uJg1ch60ULFySV09xwokHztswSeLCxvHqplJqeFQ_aem_AIGeYriR2mzbhRNboU7_4g
+  date: June 2020 - July 2020
+  subtitle: Data Science Course w/ Polygon Research
+  tags:
+    - tag: Data Science
+    - tag: Secondary Housing Market
+    - tag: Real Estate
+  timeline-side: right
+
+- title: Fannie Mae
+  title-url: https://example.com/
+  date: June 2020 - August 2020
+  subtitle: Software Engineer Intern
+  tags:
+    - tag: Capital Markets
+    - tag: AWS
+    - tag: Data visualization
+  timeline-side: left
+
+- title: Cloud 9
+  title-url: https://www.cloudninetech.com/
+  date: May 2019 - August 2019
+  subtitle: Business Development Intern
+  tags:
+    - tag: Program Planning/Management
+    - tag: RDBMS
   timeline-side: right
 
 - title: Virginia Tech 
   title-url: https://cs.vt.edu/
-  date: 2017 - 2021
+  date: August 2017
   subtitle: B.S. Computer Science, Minor Cybersecurity
   timeline-side: left
 
