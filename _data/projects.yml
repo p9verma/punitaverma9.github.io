@@ -59,16 +59,20 @@
 - name: RISE Webapp
 
 - name: Alzeihmer's Diagnosis using Neural Networks
+  descr: ""
   tags:
     - tag: Fuzzy Logic
 
 - name: Fraud Detection
+  descr: ""
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/FraudDetection/SystemsPlan.md"
 
 - name: Sentiment Analysis
+  descr: ""
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/Sentiment_Analysis/SystemsPlan.md"
 
 - name: Automated License Plate Recognition
+  descr: ""
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/VIrtualSearch/SystemsPlan.md"
   tags:
     - tag: OpenCV
