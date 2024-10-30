@@ -14,13 +14,23 @@
 #     - tag: Node
 
 - name: Longformer
-  descr: "Implemented sliding window attention from the <a href='https://arxiv.org/abs/2004.05150' title='Longformer' style="color: #3498db; text-decoration: underline;">Longformer</a> in GPT, demonstrating improvements on computational efficiency and scalability to handle longer sequences. Experimented with wikitext-103 dataset to measure training complexities, cross-entropy loss, and perplexity for both standard self-attention and sliding window models. Aimed to demonstrate linear complexity over quadratic complexity for large-scale document classification tasks."
+  descr: "Implemented sliding window attention from the <a href='https://arxiv.org/abs/2004.05150' title='Longformer' style='color: #3498db; text-decoration: underline;'>Longformer</a> in GPT, demonstrating improvements on computational efficiency and scalability to handle longer sequences. Experimented with wikitext-103 dataset to measure training complexities, cross-entropy loss, and perplexity for both standard self-attention and sliding window models. Aimed to demonstrate linear complexity over quadratic complexity for large-scale document classification tasks."
+  demo: ""
   tags:
     - tag: Tranformer
     - tag: LLM
     - tag: Efficient Attention
     - tag: Long sequence analysis
 
+-name: ChatGPT from Scratch
+  descr: "Demonstrated GPT architecture inlcuding embedding layer, positional encoding, multihead attention mechanism from scratch in pytorch, trained on WikiText-103 dataset"
+  demo: ""
+  tags:
+    - tag: LLM
+    - tag: Multi-head Attention
+    - tag: Embeddings
+    - tag: PyTorch
+    
 - name: project Y
   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
   demo: https://example.com/
