@@ -37,7 +37,7 @@ jobs:
       - run: npm install -g sass
 
       - name: Compile SCSS to CSS
-        run: sass --no-source-map _sass/main.scss _sass/vendors/aos.css _sass/vendors/normalize.css
+        run: sass --no-source-map _sass/main.scss 
 
       - name: Build with Jekyll
         env:
