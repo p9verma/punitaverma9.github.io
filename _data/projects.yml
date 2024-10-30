@@ -56,8 +56,13 @@
     - tag: Google Maps API
     - tag: JavaScript
 
-- name: RISE Webapp
+- name: Automated License Plate Recognition
   descr: ""
+  demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/VIrtualSearch/SystemsPlan.md"
+  tags:
+    - tag: OpenCV
+    - tag: YOLO
+    - tag: Docker
 
 - name: Alzeihmer's Diagnosis using Neural Networks
   descr: ""
@@ -72,10 +77,5 @@
   descr: ""
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/Sentiment_Analysis/SystemsPlan.md"
 
-- name: Automated License Plate Recognition
+- name: RISE Webapp
   descr: ""
-  demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/VIrtualSearch/SystemsPlan.md"
-  tags:
-    - tag: OpenCV
-    - tag: YOLO
-    - tag: Docker
