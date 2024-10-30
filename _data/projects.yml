@@ -22,7 +22,7 @@
     - tag: Efficient Attention
     - tag: Long sequence analysis
 
--name: ChatGPT from Scratch
+- name: ChatGPT from Scratch
   descr: "Demonstrated GPT architecture inlcuding embedding layer, positional encoding, multihead attention mechanism from scratch in pytorch, trained on WikiText-103 dataset"
   demo: ""
   tags:
