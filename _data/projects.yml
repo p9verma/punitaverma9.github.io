@@ -57,6 +57,7 @@
     - tag: JavaScript
 
 - name: RISE Webapp
+  descr: ""
 
 - name: Alzeihmer's Diagnosis using Neural Networks
   descr: ""
