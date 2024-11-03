@@ -14,11 +14,11 @@ $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
 $text-color: #000000 !default;
-$bg-color: rgb(255, 238, 252);
+$bg-color: rgb(253, 252, 251);
 // 0, 245, 247
 $card-bg-color: linear-gradient(145deg,
-    rgba(245, 245, 247) 0%,
-    rgb(221, 221, 221) 100%);
+    rgba(255, 255, 255) 0%,
+    rgb(255, 255, 255) 100%);
 // 232, 245, 222
 $primary-color: #5a565b;
 
@@ -108,7 +108,7 @@ a {
 }
 
 .neumorphism-button {
-  background: rgb(234, 199, 199);
+  background: rgba(183, 110, 121, 0.968);
   // box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
   //   4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
@@ -121,12 +121,12 @@ a {
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-   inset -1px -2px 2px rgba(239, 235, 235, 0.4);
+  box-shadow: inset 2px 2px 4px rgb(231, 224, 224),
+    inset -1px -2px 2px rgba(231, 224, 224, 0.4);
 }
 
 .neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  box-shadow: 5px 5px 4px #e7e0e0, -5px -5px 4px #e7e0e0;
 }
 
 /* Preloader */
@@ -289,7 +289,7 @@ a {
       }
 
       .social-svg {
-        fill: #000;
+        fill: #dfdfe9;
       }
 
       .label {
@@ -362,7 +362,7 @@ a {
 
   @keyframes colorEmail {
     to {
-      stroke: #f87fe0;
+      stroke: #B76E79;
     }
   }
 
@@ -393,15 +393,15 @@ a {
   }
 
   div[skill-type="language"] {
-    color: #e84a5f;
+    color: #34495E;
   }
 
   div[skill-type="framework"] {
-    color: #ff847c;
+    color: #a66e76;
   }
 
   div[skill-type="tool"] {
-    color: #fecea8;
+    color: #DAA520;
   }
 
   div[skill-weight="1"] {
@@ -449,14 +449,17 @@ a {
 
   .timeline:before {
     background: linear-gradient(to bottom,
-        #000000 100%);
-    content: " ";
+        #f3f3f3 0%,
+        #d5d5d5 8%,
+        #e2e1e1 92%,
+        #f3f3f3 100%);
+    content: "";
     height: 100%;
     left: 50%;
     margin-left: -0.0675rem;
     position: absolute;
     width: 0.125rem;
-    z-index: -1;
+    z-index: 0;
   }
 
   .timeline li {
@@ -612,7 +615,7 @@ a {
     }
 
     .social-svg {
-      fill: $primary-color;
+      fill: rgb(221, 221, 221);
     }
 
     &:hover {
@@ -620,14 +623,14 @@ a {
       animation: jump 1s infinite alternate;
 
       .social-svg {
-        fill: $text-color;
+        fill: rgb(221, 221, 221);
       }
     }
   }
 
   .black:hover {
     .social-svg {
-      fill: #000;
+      fill: rgb(221, 221, 221);
     }
   }
 
