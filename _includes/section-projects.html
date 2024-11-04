@@ -4,18 +4,22 @@
   {% for project in site.data.projects %}
   <div class="project neumorphism-card" data-aos="zoom-in-down">
     <div class="name-link-wrapper">
-      <h3>{{project.name}}</h3>
+      <h3>{{ project.name }}</h3>
     </div>
-    <p class="project-desc">{{project.descr}}</p>
+    <ul class="project-desc">
+      {% for item in project.descr %}
+        <li>{{ item | markdownify }}</li> <!-- Each description line as a bullet point -->
+      {% endfor %}
+    </ul>
     {% if project.demo %}
-    <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
+    <a class="highlight-link" href="{{ project.demo }}" target="_blank" rel="noreferrer">
       Code
     </a>
     {% endif %}
     {% if project.tags %}
     <div class="tag-wrapper">
       {% for tag in project.tags %}
-      <span class="tag neumorphism-card">{{tag.tag}}</span>
+      <span class="tag neumorphism-card">{{ tag.tag }}</span>
       {% endfor %}
     </div>
     {% endif %}
@@ -23,6 +27,7 @@
   {% endfor %}
 </div>
 {% endif %}
+
 
 {% if site.show_os_projects %}
 <h1 class="title">{{site.os_projects_title}}</h1>
