@@ -11,8 +11,8 @@
 <body>
   <!-- Navigation Bar -->
   <nav class="navbar">
-    <a href="{{ '/_layouts/default.html' | relative_url }}" class="nav-link">Work</a>
-    <a href="{{ '/' | relative_url }}" class="nav-link">About</a>
+    <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Work</a>
+    <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
   </nav>
 
   <!-- About Page Content -->
@@ -42,17 +42,27 @@
       font-family: Arial, sans-serif;
       background-color: #f5f5f5;
       color: #333;
+      margin: 0;
     }
     .navbar {
+      position: fixed;
+      top: 20px;
+      right: 20px;
       display: flex;
-      justify-content: center;
-      padding: 20px;
+      gap: 20px;
+      padding: 10px 20px;
       background-color: #333;
+      border-radius: 8px;
     }
     .nav-link {
       color: #fff;
-      margin: 0 15px;
       text-decoration: none;
+      padding: 10px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .nav-link:hover {
+      background-color: #444;
     }
     .nav-link.active {
       font-weight: bold;
@@ -60,7 +70,7 @@
     }
     .about-container {
       max-width: 800px;
-      margin: 40px auto;
+      margin: 80px auto;
       padding: 20px;
       background-color: #fff;
       border-radius: 10px;
@@ -74,6 +84,7 @@
       padding: 20px;
       font-size: 14px;
       color: #999;
+      margin-top: 40px;
     }
   </style>
 </body>
