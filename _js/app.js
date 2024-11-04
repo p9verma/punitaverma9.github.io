@@ -2,24 +2,18 @@ setTimeout(function () {
   fadeOutPreloader(document.getElementById('preloader'), 69);
 }, 1500);
 
-// $(document).ready(function () {
-//   $(window).on('beforeunload', function () {
-//     window.scrollTo(0, 0);
-//   });
+$(document).ready(function () {
+  // Scroll to the top on page reload
+  $(window).on('beforeunload', function () {
+    window.scrollTo(0, 0);
+  });
 
-//   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-//   particlesJS.load('landing', 'assets/particles.json', function () {
-//     console.log("particles.json successfully loaded");
-//   });
-// assets/js/app.js
-$(document).ready(function() {
-  particlesJS.load('particles-js', 'assets/particles.json', function() {
+  // Particles.js load function
+  particlesJS.load('particles-js', 'assets/particles.json', function () {
     console.log('particles.js config loaded');
   });
-});
 
-
-  // Typing Text
+  // Typing Text Initialization
   var element = document.getElementById('txt-rotate');
   var toRotate = element.getAttribute('data-rotate');
   var period = element.getAttribute('data-period');
@@ -27,13 +21,13 @@ $(document).ready(function() {
     new TxtRotate(element, JSON.parse(toRotate), period);
   }, 1500);
 
-  // INJECT CSS
+  // Inject CSS for Typing Effect
   var css = document.createElement('style');
   css.type = 'text/css';
   css.innerHTML = '#txt-rotate > .wrap { border-right: 0.08em solid #666 }';
   document.body.appendChild(css);
 
-  // Initialize AOS
+  // Initialize AOS (Animate On Scroll) Library
   AOS.init({
     disable: 'mobile',
     offset: 200,
@@ -43,8 +37,11 @@ $(document).ready(function() {
     once: true
   });
 
+  // Randomize Skill Order
   randomizeOrder();
 });
+
+// });
 
 /* FUNCTIONS */
 /* Preloader */

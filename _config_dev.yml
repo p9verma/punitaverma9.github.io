@@ -1,2 +1,2 @@
-baseurl: "/punitaverma9.github.io" # the subpath of your site, e.g. /blog
-url: "https://p9verma.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://p9verma.github.io"
