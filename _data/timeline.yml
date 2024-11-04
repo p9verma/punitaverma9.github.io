@@ -66,13 +66,15 @@
   title-url: https://www.jhu.edu/academics/graduate-studies/
   date: January 2023
   subtitle: 
-    - Began **M.S. in Artificial Intelligence** with a focus on LLM research.
+    - Began M.S. in Artificial Intelligence
+    - Focus on LLM research.
     - Completed coursework in advanced machine learning, AI, and data science.
   tags:
-    - tag: AI/intelligent algorithms
-    - tag: LLMs
-    - tag: Python
+    - tag: Artificial Intelligence
+    - tag: Large Language Models
+    - tag: Fuzzy Logic
     - tag: Machine Learning
+    - tag: Data Science
   timeline-side: left
 
 - title: Expedia Group
@@ -95,15 +97,17 @@
   title-url: https://news.vt.edu/awards/students/deans-list/deans-list-spring-2021.html
   date: May 2021
   subtitle: 
-    - Graduated with a **B.S. in Computer Science**, with a minor in Cybersecurity.
-    - Achieved academic recognition on the **Dean's List**.
+    - Graduated
+    - B.S. in Computer Science, with a minor in Cybersecurity.
+    - Achieved academic recognition on the Dean's List.
   timeline-side: left
 
 - title: Future Housing Leaders (Fannie Mae)
   title-url: https://www.futurehousingleaders.com/
   date: June 2020 - July 2020
   subtitle: 
-    - Completed a Data Science Course with Polygon Research, focusing on housing market analysis.
+    - Completed a Data Science Course with Polygon Research
+    - Focused on housing market data analysis and predictions.
     - Gained experience with ML time series forecasting and data visualization.
   tags:
     - tag: Data Science
@@ -140,7 +144,7 @@
   title-url: https://cs.vt.edu/
   date: August 2017
   subtitle: 
-    - Began **B.S. in Computer Science with a minor in Cybersecurity** at Virginia Tech.
+    - Began B.S. in Computer Science
   timeline-side: left
 
 - title: Children's Science Center
