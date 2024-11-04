@@ -20,7 +20,12 @@
 - title: General Dynamics Information Technology
   title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
   date: February 2023 – Present
-  subtitle: "Senior Data Scientist/AI Researcher\n- Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes.\n- Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning.\n- Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets.\n- Recognized with Spot/Hero award for collaboration and innovation."
+  subtitle:
+    - "Senior Data Scientist/AI Researcher"
+    - "Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes."
+    - "Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning."
+    - "Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets."
+    - "Recognized with Spot/Hero award for collaboration and innovation."
   tags:
     - tag: CNNs
     - tag: Transformers
@@ -33,6 +38,7 @@
   title-url: https://www.gdit.com/
   date: October 2023
   subtitle: 
+    - Financial Analysis Product Lead
     - Drove over $300,000 in savings by developing analytics dashboards for risk and productivity management.
     - Communicated recommendations to executives using PowerBI and financial data modeling to optimize resource allocation.
     - Built strong client relationships and showcased data-driven solutions for financial performance management.
@@ -47,6 +53,7 @@
   title-url: https://www.gdit.com/
   date: February 2023 - December 2023
   subtitle: 
+    - Software Developer
     - Managed feature development and user stories for an application with 20,000+ users to support mission-critical objectives.
     - Prioritized system roadmap based on client and user feedback, enhancing satisfaction and safety.
   tags:
@@ -72,6 +79,7 @@
   title-url: https://expediagroup.com/
   date: June 2021 – February 2023
   subtitle: 
+    - Software Engineer I & II
     - Spearheaded development of a virtual agent, achieving 90% first-contact resolution and reducing response times by over 99%.
     - Improved chatbot satisfaction scores by 25% through feature prioritization based on user research.
     - Led migration to Kubernetes, reducing processing costs by 15% for payment systems.
@@ -107,6 +115,7 @@
   title-url: https://example.com/
   date: June 2020 - August 2020
   subtitle: 
+    - Software Engineer Intern
     - Supported Capital Markets team as a Software Engineer Intern, applying Agile methodologies.
     - Practiced CI/CD and SDLC, contributing to the development of solutions for the Secondary Housing Market.
   tags:
@@ -119,6 +128,7 @@
   title-url: https://www.cloudninetech.com/
   date: May 2019 - August 2019
   subtitle: 
+    - Intern
     - Served as a Business Development Intern, involved in program planning and management.
     - Assisted with database management using RDBMS.
   tags:
