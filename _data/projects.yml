@@ -22,14 +22,14 @@
     - tag: Efficient Attention
     - tag: Long sequence analysis
 
-- name: ChatGPT from Scratch
-  descr: "Demonstrated GPT architecture inlcuding embedding layer, positional encoding, multihead attention mechanism from scratch in pytorch, trained on WikiText-103 dataset"
-  demo: ""
-  tags:
-    - tag: LLM
-    - tag: Multi-head Attention
-    - tag: Embeddings
-    - tag: PyTorch
+# - name: ChatGPT from Scratch
+#   descr: "Demonstrated GPT architecture inlcuding embedding layer, positional encoding, multihead attention mechanism from scratch in pytorch, trained on WikiText-103 dataset"
+#   demo: ""
+#   tags:
+#     - tag: LLM
+#     - tag: Multi-head Attention
+#     - tag: Embeddings
+#     - tag: PyTorch
     
 - name: Financial Advising Agent
   descr: "Designed and implemented a Retrieval-Augmented Generation (RAG) system to optimize financial decision-making by providing real-time data retrieval and context-aware responses for financial analysis. Integrated OpenAI APIs, LangChain, and Edgar dataset for enhanced natural language processing capabilities, enabling more accurate and contextual responses in the financial domain. Employed RAGAS framework to evaluate agent on RAG response times, hallucination rates, precision, and recall."
@@ -77,5 +77,5 @@
   descr: ""
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/Sentiment_Analysis/SystemsPlan.md"
 
-- name: RISE Webapp
-  descr: ""
+# - name: RISE Webapp
+#   descr: ""
