@@ -20,6 +20,7 @@
   title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
   date: February 2023 – Present
   subtitle: 
+  Senior Data Scientist/AI Researcher
     - Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes.
     - Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning.
     - Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets.
@@ -52,7 +53,6 @@
   subtitle: 
     - Managed feature development and user stories for an application with 20,000+ users to support mission-critical objectives.
     - Prioritized system roadmap based on client and user feedback, enhancing satisfaction and safety.
-    - Technologies: Ruby on Rails, Ext.JS, MySQL.
   tags:
     - tag: Ruby on Rails
     - tag: JavaScript
