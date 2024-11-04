@@ -22,7 +22,7 @@
 #     - tag: Multi-head Attention
 #     - tag: Embeddings
 #     - tag: PyTorch
- - name: Longformer
+- name: Longformer
   descr:
     - "Implemented sliding window attention from the <a href='https://arxiv.org/abs/2004.05150' title='Longformer' style='color: #3498db; text-decoration: underline;'>Longformer</a> in GPT, demonstrating improvements on computational efficiency and scalability to handle longer sequences."
     - "Experimented with wikitext-103 dataset to measure training complexities, cross-entropy loss, and perplexity for both standard self-attention and sliding window models."
