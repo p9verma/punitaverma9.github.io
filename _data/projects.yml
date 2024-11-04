@@ -13,14 +13,6 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Longformer
-  descr: "Implemented sliding window attention from the <a href='https://arxiv.org/abs/2004.05150' title='Longformer' style='color: #3498db; text-decoration: underline;'>Longformer</a> in GPT, demonstrating improvements on computational efficiency and scalability to handle longer sequences. Experimented with wikitext-103 dataset to measure training complexities, cross-entropy loss, and perplexity for both standard self-attention and sliding window models. Aimed to demonstrate linear complexity over quadratic complexity for large-scale document classification tasks."
-  demo: "https://github.com/p9verma/longformer/blob/main/ChatGPTfromScratch_Final_Report_Verma.pdf"
-  tags:
-    - tag: Tranformer
-    - tag: LLM
-    - tag: Efficient Attention
-    - tag: Long sequence analysis
 
 # - name: ChatGPT from Scratch
 #   descr: "Demonstrated GPT architecture inlcuding embedding layer, positional encoding, multihead attention mechanism from scratch in pytorch, trained on WikiText-103 dataset"
@@ -30,9 +22,23 @@
 #     - tag: Multi-head Attention
 #     - tag: Embeddings
 #     - tag: PyTorch
-    
+ - name: Longformer
+  descr:
+    - "Implemented sliding window attention from the <a href='https://arxiv.org/abs/2004.05150' title='Longformer' style='color: #3498db; text-decoration: underline;'>Longformer</a> in GPT, demonstrating improvements on computational efficiency and scalability to handle longer sequences."
+    - "Experimented with wikitext-103 dataset to measure training complexities, cross-entropy loss, and perplexity for both standard self-attention and sliding window models."
+    - "Aimed to demonstrate linear complexity over quadratic complexity for large-scale document classification tasks."
+  demo: "https://github.com/p9verma/longformer/blob/main/ChatGPTfromScratch_Final_Report_Verma.pdf"
+  tags:
+    - tag: Transformer
+    - tag: LLM
+    - tag: Efficient Attention
+    - tag: Long sequence analysis
+
 - name: Financial Advising Agent
-  descr: "Designed and implemented a Retrieval-Augmented Generation (RAG) system to optimize financial decision-making by providing real-time data retrieval and context-aware responses for financial analysis. Integrated OpenAI APIs, LangChain, and Edgar dataset for enhanced natural language processing capabilities, enabling more accurate and contextual responses in the financial domain. Employed RAGAS framework to evaluate agent on RAG response times, hallucination rates, precision, and recall."
+  descr:
+    - "Designed and implemented a Retrieval-Augmented Generation (RAG) system to optimize financial decision-making by providing real-time data retrieval and context-aware responses for financial analysis."
+    - "Integrated OpenAI APIs, LangChain, and Edgar dataset for enhanced natural language processing capabilities, enabling more accurate and contextual responses in the financial domain."
+    - "Employed RAGAS framework to evaluate agent on RAG response times, hallucination rates, precision, and recall."
   demo: "https://github.com/peterphan1101/Artificial_Intelligence_Projects/tree/main"
   tags:
     - tag: RAG
@@ -40,7 +46,10 @@
     - tag: Prompt Augmentation
 
 - name: ML Capstone Project Multi-pronged Attention Network for Stock Forecasting (MAN-SF)
-  descr: "Developed an ML model integrating multiple data modalities, such as social media text (sentiment analysis) and time series data, to enhance stock price forecasting accuracy and understanding of market trends. Improved model accuracy by 12% over standard methods and demonstrated the effectiveness of PCA in reducing noise in stock market data. Evaluated the model using real-time stock data and presented findings."
+  descr:
+    - "Developed an ML model integrating multiple data modalities, such as social media text (sentiment analysis) and time series data, to enhance stock price forecasting accuracy and understanding of market trends."
+    - "Improved model accuracy by 12% over standard methods and demonstrated the effectiveness of PCA in reducing noise in stock market data."
+    - "Evaluated the model using real-time stock data and presented findings."
   demo: "https://github.com/cherh63/ML-StockPredict/blob/main/Project%20Report.pdf"
   tags:
     - tag: MAN-SF
@@ -49,7 +58,10 @@
     - tag: Time Series
 
 - name: Big Fat Charity
-  descr: "Winner, HackDuke Capital One Best Financial Hack, Created an application to allow users to make informed and efficient charity donations using Big Data analysis , used Google Maps API to visualize and compare charity need and information from over 8000 charities, Provided an interactive map to visualize charity need in the US on 5 metrics and average overall score using Google Maps API"
+  descr:
+    - "Winner, HackDuke Capital One Best Financial Hack, created an application to allow users to make informed and efficient charity donations using Big Data analysis."
+    - "Used Google Maps API to visualize and compare charity needs and information from over 8000 charities."
+    - "Provided an interactive map to visualize charity need in the US on five metrics and average overall score using Google Maps API."
   demo: "https://github.com/bubbajoe/BigFatCharity"
   tags:
     - tag: Big Data Visualization
@@ -57,25 +69,27 @@
     - tag: JavaScript
 
 - name: Automated License Plate Recognition
-  descr: ""
+  descr:
+    - "Utilized OpenCV and YOLO for real-time license plate detection."
+    - "Packaged the solution in Docker for deployment."
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/VIrtualSearch/SystemsPlan.md"
   tags:
     - tag: OpenCV
     - tag: YOLO
     - tag: Docker
 
-- name: Alzeihmer's Diagnosis using Neural Networks
-  descr: ""
+- name: Alzheimer's Diagnosis using Neural Networks
+  descr:
+    - "Implemented fuzzy logic-based neural networks for diagnosing Alzheimer’s disease."
   tags:
     - tag: Fuzzy Logic
 
 - name: Fraud Detection
-  descr: ""
+  descr:
+    - "Developed a fraud detection model to analyze suspicious transactions using ML techniques."
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/FraudDetection/SystemsPlan.md"
 
 - name: Sentiment Analysis
-  descr: ""
+  descr:
+    - "Performed sentiment analysis on large datasets using natural language processing techniques."
   demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/Sentiment_Analysis/SystemsPlan.md"
-
-# - name: RISE Webapp
-#   descr: ""
