@@ -41,7 +41,7 @@
 
 - name: ML Capstone Project Multi-pronged Attention Network for Stock Forecasting (MAN-SF)
   descr: "Developed an ML model integrating multiple data modalities, such as social media text (sentiment analysis) and time series data, to enhance stock price forecasting accuracy and understanding of market trends. Improved model accuracy by 12% over standard methods and demonstrated the effectiveness of PCA in reducing noise in stock market data. Evaluated the model using real-time stock data and presented findings."
-  demo: "https://github.com/cherh63/ML-StockPredict"
+  demo: "https://github.com/cherh63/ML-StockPredict/blob/main/Project%20Report.pdf"
   tags:
     - tag: MAN-SF
     - tag: Multimodal
