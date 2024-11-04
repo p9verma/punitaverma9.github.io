@@ -56,9 +56,14 @@
           </span>
         </div>
         <div class="desc neumorphism-card" data-aos="zoom-in-left">
+          <p><strong>{{ event.subtitle[0] }}</strong></p> <!-- Display job title without bullet -->
           <ul>
             {% for item in event.subtitle %}
-            <li>{{ item }}</li>
+              {% if forloop.first %} 
+                <!-- Skip the first item since it's the job title -->
+                {% continue %}
+              {% endif %}
+              <li>{{ item }}</li> <!-- Display remaining items as bullets -->
             {% endfor %}
           </ul>
           {% if event.tags %}
@@ -69,6 +74,7 @@
           </div>
           {% endif %}
         </div>
+
       </div>
     </li>
     {% endif %}
