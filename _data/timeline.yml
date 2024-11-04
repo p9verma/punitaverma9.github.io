@@ -37,7 +37,7 @@
     - tag: Tensorflow
     - tag: AWS
     - tag: CNN
-  timeline-side: left
+  timeline-side: right
 
 - title: General Dynamics Information Technology
   title-url: https://www.gdit.com/
@@ -78,13 +78,6 @@
     - tag: Payments
     - tag: Datadog
     - tag: Kubernetes
-  timeline-side: left
-
-- title: Expedia Group - Rotational Program
-  title-url: https://expediagroup.com/
-  date: Feb 2024 - Dec 2024
-  subtitle: Software Engineer I
-  tags:
     - tag: Risk Data Team
     - tag: AWS Glue
     - tag: Fraud Detection
@@ -104,7 +97,7 @@
     - tag: Data Science
     - tag: Secondary Housing Market
     - tag: Real Estate
-  timeline-side: right
+  timeline-side: left
 
 - title: Fannie Mae
   title-url: https://example.com/
@@ -114,7 +107,7 @@
     - tag: Capital Markets
     - tag: AWS
     - tag: Data visualization
-  timeline-side: left
+  timeline-side: right
 
 - title: Cloud 9
   title-url: https://www.cloudninetech.com/

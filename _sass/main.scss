@@ -271,7 +271,7 @@ a {
     }
 
     .social-svg {
-      fill: rgb(183, 110, 121);
+      fill: rgb(120, 95, 99);
     }
 
     .label {
@@ -441,10 +441,19 @@ a {
 /* Timeline Section */
 
 .timeline-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+
   .timeline {
     list-style-type: none;
     padding: 0;
     position: relative;
+    max-width: 60rem;
+    /* Set a max width to center on large screens */
+    margin: 0 auto;
+    /* Center timeline */
   }
 
   .timeline:before {
@@ -456,15 +465,16 @@ a {
     content: "";
     height: 100%;
     left: 50%;
-    margin-left: -0.0675rem;
+    // margin-left: -0.0675rem;
     position: absolute;
     width: 0.125rem;
-    z-index: auto;
+    // z-index: auto;
+    transform: translateX(-50%);
   }
 
   .timeline li {
-    padding: 1rem 2rem;
-    // margin-bottom: 1rem;
+    width: 100%;
+    margin-bottom: 4rem;
   }
 
   .hexagon {
@@ -802,6 +812,7 @@ a {
       clear: both;
       content: "";
       display: block;
+
     }
 
     .direction-l {
@@ -822,7 +833,7 @@ a {
 
       .time-wrapper {
         float: left;
-        margin-top: -0.1rem;
+        margin-top: 0.7rem;
       }
 
       .desc {
@@ -848,7 +859,7 @@ a {
 
       .time-wrapper {
         float: right;
-        margin-top: -0.1rem;
+        margin-top: 0.7rem;
       }
 
       .desc {
