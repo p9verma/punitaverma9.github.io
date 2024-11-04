@@ -271,7 +271,7 @@ a {
     }
 
     .social-svg {
-      fill: white;
+      fill: rgb(183, 110, 121);
     }
 
     .label {
@@ -307,7 +307,7 @@ a {
     }
 
     .social-svg {
-      fill: #b6d2f7;
+      fill: #f7c5b6;
     }
   }
 
@@ -509,7 +509,7 @@ a {
     background: $bg-color;
     border-radius: 0.5rem;
     font-weight: $font-weight-strong;
-    padding: 0.25rem 0.rem;
+    padding: 0.25rem 0.5rem;
     position: relative; // Ensure it's positioned relative for shadow effects
     margin-bottom: 1rem;
     // Add shadow around the flag
