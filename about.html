@@ -3,18 +3,49 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.min.css' | prepend: site.baseurl }}">
+  
+
+  <!-- Inline CSS for Navbar Styling -->
+  <style>
+    /* Basic reset and styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    /* Navbar container */
+    .navbar {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      gap: 20px; /* Space between links */
+    }
+    /* Styling individual navbar links */
+    .navbar a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    /* Hover effect */
+    .navbar a:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <a href="{{ site.baseurl }}/" class="nav-link {% if page.url == '/' %}active{% endif %}">Work</a>
-    <a href="{{ site.baseurl }}/about" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
-  </nav>
-
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="{{ site.baseurl }}/">Work</a>
+    <a href="{{ site.baseurl }}/about">About</a>
+  </div>
   <!-- About Page Content -->
   <section class="about-section">
     <div class="about-container">
