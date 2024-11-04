@@ -21,7 +21,7 @@
   title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
   date: February 2023 – Present
   subtitle:
-    - "Senior Data Scientist/AI Researcher"
+    - "Senior Data Scientist, AI Researcher"
     - "Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes."
     - "Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning."
     - "Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets."
@@ -53,7 +53,7 @@
   title-url: https://www.gdit.com/
   date: February 2023 - December 2023
   subtitle: 
-    - Software Developer
+    - Software Engineer
     - Managed feature development and user stories for an application with 20,000+ users to support mission-critical objectives.
     - Prioritized system roadmap based on client and user feedback, enhancing satisfaction and safety.
   tags:
@@ -66,7 +66,7 @@
   title-url: https://www.jhu.edu/academics/graduate-studies/
   date: January 2023
   subtitle: 
-    - Pursued M.S. in Artificial Intelligence with a focus on LLM research.
+    - Began **M.S. in Artificial Intelligence** with a focus on LLM research.
     - Completed coursework in advanced machine learning, AI, and data science.
   tags:
     - tag: AI/intelligent algorithms
@@ -95,8 +95,8 @@
   title-url: https://news.vt.edu/awards/students/deans-list/deans-list-spring-2021.html
   date: May 2021
   subtitle: 
-    - Graduated with a B.S. in Computer Science, with a minor in Cybersecurity.
-    - Achieved academic recognition on the Dean's List.
+    - Graduated with a **B.S. in Computer Science**, with a minor in Cybersecurity.
+    - Achieved academic recognition on the **Dean's List**.
   timeline-side: left
 
 - title: Future Housing Leaders (Fannie Mae)
@@ -140,12 +140,13 @@
   title-url: https://cs.vt.edu/
   date: August 2017
   subtitle: 
-    - Began B.S. in Computer Science with a minor in Cybersecurity at Virginia Tech.
+    - Began **B.S. in Computer Science with a minor in Cybersecurity** at Virginia Tech.
   timeline-side: left
 
 - title: Children's Science Center
   title-url: https://www.childsci.org/
   date: 2016 - 2017
   subtitle: 
-    - Volunteered as a STEMtender, promoting STEM education and engagement for children.
+    - STEMtender
+    - Volunteered and worked as a "STEMtender", promoting STEM education and engagement for children.
   timeline-side: right
