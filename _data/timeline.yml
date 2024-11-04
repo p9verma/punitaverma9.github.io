@@ -18,12 +18,16 @@
 #   timeline-side: right
 - title: General Dynamics Information Technology
   title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
-  date: December 2023 - Present
-  subtitle: Senior Data Scientist - AI Researcher
+  date: February 2023 – Present
+  subtitle: 
+    - Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes.
+    - Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning.
+    - Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets.
+    - Recognized with Spot/Hero award for collaboration and innovation.
   tags:
     - tag: CNNs
     - tag: Transformers
-    - tag: Transfer Learning
+    - tag: Contrastive Learning
     - tag: Model Development
     - tag: Data Science
   timeline-side: right
@@ -31,18 +35,24 @@
 - title: General Dynamics Information Technology
   title-url: https://www.gdit.com/
   date: October 2023
-  subtitle: Financial Analysis Product Data Lead
+  subtitle: 
+    - Drove over $300,000 in savings by developing analytics dashboards for risk and productivity management.
+    - Communicated recommendations to executives using PowerBI and financial data modeling to optimize resource allocation.
+    - Built strong client relationships and showcased data-driven solutions for financial performance management.
   tags:
     - tag: Python
-    - tag: Tensorflow
+    - tag: TensorFlow
     - tag: AWS
-    - tag: CNN
-  timeline-side: right
+    - tag: Data Analysis
+  timeline-side: left
 
 - title: General Dynamics Information Technology
   title-url: https://www.gdit.com/
   date: February 2023 - December 2023
-  subtitle: Software Developer
+  subtitle: 
+    - Managed feature development and user stories for an application with 20,000+ users to support mission-critical objectives.
+    - Prioritized system roadmap based on client and user feedback, enhancing satisfaction and safety.
+    - Technologies: Ruby on Rails, Ext.JS, MySQL.
   tags:
     - tag: Ruby on Rails
     - tag: JavaScript
@@ -52,80 +62,84 @@
 - title: Johns Hopkins University
   title-url: https://www.jhu.edu/academics/graduate-studies/
   date: January 2023
-  subtitle: M.S. Artificial Intelligence
+  subtitle: 
+    - Pursued M.S. in Artificial Intelligence with a focus on LLM research.
+    - Completed coursework in advanced machine learning, AI, and data science.
   tags:
     - tag: AI/intelligent algorithms
-    - tag: LLMS
+    - tag: LLMs
     - tag: Python
     - tag: Machine Learning
   timeline-side: left
 
 - title: Expedia Group
   title-url: https://expediagroup.com/
-  date: Feb 2024 - Dec 2024
-  subtitle: Software Engineer II
+  date: June 2021 – February 2023
+  subtitle: 
+    - Spearheaded development of a virtual agent, achieving 90% first-contact resolution and reducing response times by over 99%.
+    - Improved chatbot satisfaction scores by 25% through feature prioritization based on user research.
+    - Led migration to Kubernetes, reducing processing costs by 15% for payment systems.
+    - Optimized fraud detection rates through serverless solutions, improving time and cost metrics.
   tags:
     - tag: Site Observability
-    - tag: Conversation Platform - Chatbot
-    - tag: Intelligent Services
-  timeline-side: right
-
-- title: Expedia Group - Rotational Program
-  title-url: https://expediagroup.com/
-  date: Feb 2024 - Dec 2024
-  subtitle: Software Engineer I
-  tags:
-    - tag: Payments
-    - tag: Datadog
+    - tag: Chatbot Development
     - tag: Kubernetes
-    - tag: Risk Data Team
-    - tag: AWS Glue
     - tag: Fraud Detection
   timeline-side: right
 
 - title: Virginia Tech
   title-url: https://news.vt.edu/awards/students/deans-list/deans-list-spring-2021.html
   date: May 2021
-  subtitle: Graduated Computer Science
+  subtitle: 
+    - Graduated with a B.S. in Computer Science, with a minor in Cybersecurity.
+    - Achieved academic recognition on the Dean's List.
   timeline-side: left
 
 - title: Future Housing Leaders (Fannie Mae)
-  title-url: https://www.futurehousingleaders.com/?fbclid=IwY2xjawGNULRleHRuA2FlbQIxMAABHS70AzHUQn64Ev7HX2uJg1ch60ULFySV09xwokHztswSeLCxvHqplJqeFQ_aem_AIGeYriR2mzbhRNboU7_4g
+  title-url: https://www.futurehousingleaders.com/
   date: June 2020 - July 2020
-  subtitle: Data Science Course w/ Polygon Research
+  subtitle: 
+    - Completed a Data Science Course with Polygon Research, focusing on housing market analysis.
+    - Gained experience with ML time series forecasting and data visualization.
   tags:
     - tag: Data Science
-    - tag: Secondary Housing Market
+    - tag: Housing Market
     - tag: Real Estate
-  timeline-side: left
+  timeline-side: right
 
 - title: Fannie Mae
   title-url: https://example.com/
   date: June 2020 - August 2020
-  subtitle: Software Engineer Intern
+  subtitle: 
+    - Supported Capital Markets team as a Software Engineer Intern, applying Agile methodologies.
+    - Practiced CI/CD and SDLC, contributing to the development of solutions for the Secondary Housing Market.
   tags:
     - tag: Capital Markets
     - tag: AWS
-    - tag: Data visualization
-  timeline-side: right
+    - tag: Data Visualization
+  timeline-side: left
 
 - title: Cloud 9
   title-url: https://www.cloudninetech.com/
   date: May 2019 - August 2019
-  subtitle: Business Development Intern
+  subtitle: 
+    - Served as a Business Development Intern, involved in program planning and management.
+    - Assisted with database management using RDBMS.
   tags:
-    - tag: Program Planning/Management
+    - tag: Program Planning
     - tag: RDBMS
   timeline-side: right
 
 - title: Virginia Tech
   title-url: https://cs.vt.edu/
   date: August 2017
-  subtitle: B.S. Computer Science, Minor Cybersecurity
+  subtitle: 
+    - Began B.S. in Computer Science with a minor in Cybersecurity at Virginia Tech.
   timeline-side: left
 
 - title: Children's Science Center
   title-url: https://www.childsci.org/
   date: 2016 - 2017
-  subtitle: STEMtender
+  subtitle: 
+    - Volunteered as a STEMtender, promoting STEM education and engagement for children.
   timeline-side: right
