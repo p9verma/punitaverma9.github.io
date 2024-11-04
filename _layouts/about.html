@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.min.css' | prepend: site.baseurl }}">
-<!-- Inline CSS for Navbar Styling -->
+  <!-- Inline CSS for Styling -->
   <style>
-    /* Basic reset and styling */
+    /* Body styling and gradient background */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       color: #333;
+      background: linear-gradient(135deg, #ff7e5f, #feb47b);
     }
     /* Navbar container */
     .navbar {
@@ -20,7 +21,7 @@
       top: 20px;
       right: 20px;
       display: flex;
-      gap: 20px; /* Space between links */
+      gap: 20px;
     }
     /* Styling individual navbar links */
     .navbar a {
@@ -35,6 +36,75 @@
     .navbar a:hover {
       background-color: #f0f0f0;
     }
+    /* About container styling */
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 50px 20px;
+    }
+    .about-container {
+      max-width: 900px;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      gap: 2em;
+    }
+    /* Text section styling */
+    .about-text {
+      flex: 2;
+    }
+    .about-text h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-bottom: 1em;
+      color: #333;
+    }
+    .about-text p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 1em;
+    }
+    /* Profile picture styling */
+    .about-profile {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .about-profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    /* Grid section for additional details */
+    .about-details {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5em;
+      margin-top: 2em;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+    }
+    .about-details div {
+      font-size: 1em;
+    }
+    .about-details strong {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    /* Footer styling */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #999;
+    }
   </style>
 </head>
 <body>
@@ -47,7 +117,33 @@
   <!-- Main About Content -->
   <section class="about-section">
     <div class="about-container">
-      {{ content }}
+      <div class="about-text">
+        <h1>Why hello there!</h1>
+        <p>I enjoy the pursuit of craft, solving complex problems, and mentoring others.</p>
+        <p>I’m inquisitive by nature and love exploring this beautiful world. I also enjoy volunteering and meeting new people.</p>
+        <p>Outside of work, I enjoy travel, hiking, photography, and longbow archery.</p>
+        <div class="about-details">
+          <div>
+            <strong>Experience</strong>
+            <p>5 years</p>
+          </div>
+          <div>
+            <strong>Superpower</strong>
+            <p>High fidelity prototyping</p>
+          </div>
+          <div>
+            <strong>Reading</strong>
+            <p>As Breathe Becomes Aie<br>by Paul Kalanithi</p>
+          </div>
+          <div>
+            <strong>Volunteering</strong>
+            <p>President's Service Award, Gold</p>
+          </div>
+        </div>
+      </div>
+<!--       <div class="about-profile">
+        <img src="{{ '/assets/img/profile.jpg' | prepend: site.baseurl }}" alt="Profile Picture">
+      </div> -->
     </div>
   </section>
 
