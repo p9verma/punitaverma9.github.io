@@ -16,15 +16,11 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
+
 - title: General Dynamics Information Technology
   title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
   date: February 2023 – Present
-  subtitle: 
-  Senior Data Scientist/AI Researcher
-    - Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes.
-    - Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning.
-    - Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets.
-    - Recognized with Spot/Hero award for collaboration and innovation.
+  subtitle: "Senior Data Scientist/AI Researcher\n- Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes.\n- Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning.\n- Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets.\n- Recognized with Spot/Hero award for collaboration and innovation."
   tags:
     - tag: CNNs
     - tag: Transformers
