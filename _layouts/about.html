@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.min.css' | prepend: site.baseurl }}">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="{{ '/' | relative_url }}">Work</a>
+    <a href="{{ '/about/' | relative_url }}">About</a>
+  </div>
+
+  <!-- Main About Content -->
+  <section class="about-section">
+    <div class="about-container">
+      {{ content }}
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Designed & Developed by Punita Verma</p>
+  </footer>
+</body>
+</html>
