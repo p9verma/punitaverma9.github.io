@@ -24,9 +24,13 @@
           </span>
         </div>
         <div class="desc neumorphism-card" data-aos="zoom-in-right">
+          <p><strong>{{ event.subtitle[0] }}</strong></p> <!-- Display job title without bullet -->
           <ul>
             {% for item in event.subtitle %}
-            <li>{{ item }}</li>
+              {% if forloop.first %} 
+                {% continue %}
+              {% endif %}
+              <li>{{ item }}</li> <!-- Render remaining items as bullets -->
             {% endfor %}
           </ul>
           {% if event.tags %}
@@ -56,13 +60,13 @@
           </span>
         </div>
         <div class="desc neumorphism-card" data-aos="zoom-in-left">
-          <p><strong>{{ event.subtitle[0] | markdownify }}</strong></p> <!-- Render job title with Markdown -->
+          <p><strong>{{ event.subtitle[0] }}</strong></p> <!-- Display job title without bullet -->
           <ul>
             {% for item in event.subtitle %}
               {% if forloop.first %} 
                 {% continue %}
               {% endif %}
-              <li>{{ item | markdownify }}</li> <!-- Render remaining items with Markdown -->
+              <li>{{ item }}</li> <!-- Render remaining items as bullets -->
             {% endfor %}
           </ul>
           {% if event.tags %}
@@ -73,8 +77,6 @@
           </div>
           {% endif %}
         </div>
-
-
       </div>
     </li>
     {% endif %}
