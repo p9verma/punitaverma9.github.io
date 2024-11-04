@@ -44,7 +44,7 @@
     - tag: TensorFlow
     - tag: AWS
     - tag: Data Analysis
-  timeline-side: left
+  timeline-side: right
 
 - title: General Dynamics Information Technology
   title-url: https://www.gdit.com/
@@ -105,7 +105,7 @@
     - tag: Data Science
     - tag: Housing Market
     - tag: Real Estate
-  timeline-side: right
+  timeline-side: left
 
 - title: Fannie Mae
   title-url: https://example.com/
@@ -117,7 +117,7 @@
     - tag: Capital Markets
     - tag: AWS
     - tag: Data Visualization
-  timeline-side: left
+  timeline-side: right
 
 - title: Cloud 9
   title-url: https://www.cloudninetech.com/
