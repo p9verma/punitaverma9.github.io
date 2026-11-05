@@ -5,3 +5,5 @@
 .degree-summary>span{display:block;margin-top:10px;line-height:1.45}.degree-summary small{display:block;margin-top:3px;color:var(--muted);font-size:11px}.degree-summary b{font-weight:700}
 
 @media(min-width:761px){.work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.role-date{display:inline-block;margin-top:5px;color:var(--muted);font-weight:400}
