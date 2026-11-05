@@ -9,3 +9,5 @@
 .role-date{display:inline-block;margin-top:5px;color:var(--muted);font-weight:400}
 
 .research-grid{margin-top:24px}.speaking-note{border-top:1px solid var(--line);margin:24px 0 0;padding-top:18px;color:var(--muted);font-size:14px}.hero h1{font-size:clamp(40px,4.5vw,60px)}
+
+.impact-points{margin:0 0 20px;padding-left:18px;color:var(--muted);font-size:14px;line-height:1.65}.impact-points li{padding-left:3px;margin-bottom:13px}.impact-points li:last-child{margin-bottom:0}.impact-points b{font-weight:650;color:var(--ink)}
