@@ -1,0 +1,11 @@
+<h1 class="title">Leadership and Volunteering</h1>
+<p class="description">Building communities, guiding volunteer teams, and contributing technical skills to organizations serving others.</p>
+<div class="leadership-list">
+{% for engagement in site.data.leadership %}
+<article class="leadership-entry">
+<h2>{% if engagement.url %}<a class="highlight-link" href="{{ engagement.url }}" target="_blank" rel="noreferrer">{{ engagement.title }}</a>{% else %}{{ engagement.title }}{% endif %}</h2>
+<p class="leadership-role">{{ engagement.role }}</p>
+<p>{{ engagement.description }}</p>
+</article>
+{% endfor %}
+</div>
