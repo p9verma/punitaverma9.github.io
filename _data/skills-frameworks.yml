@@ -1,45 +1,30 @@
-# > name: Name of your framework
-# > weight: Describes how good you know the framework - values from 1 up to 5
-#
-# Example of a framework
-# - name: Framework
-#   weight: 5
-
 - name: Tensorflow
   weight: 5
-
 - name: PyTorch
   weight: 5
-
 - name: Keras
   weight: 4
-
 - name: OpenCV
   weight: 2
-
 - name: Scikit-learn
   weight: 2
-
 - name: LangChain
   weight: 3
-
 - name: Transformers
   weight: 1
-
 - name: Transfer learning
   weight: 1
-
 - name: Model evaluation
   weight: 1
-
 - name: Data Science
   weight: 4
-
 - name: Jekyll
   weight: 1
-
 - name: RICE
   weight: 2
-
 - name: CI/CD
   weight: 2
+- name: RAG
+  weight: 3
+- name: PEFT / LoRA
+  weight: 3

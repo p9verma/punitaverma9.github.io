@@ -1,95 +1,76 @@
-# > name: Name of your project
-# > descr: Description of your project
-# > demo: Link to your project
-# > tags: List of technologies you used in your projects
-#
-# Example of a project
-# - name: project X
-#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-#   demo: https://example.com/
-#   tags:
-#     - tag: MongoDB
-#     - tag: Express
-#     - tag: AngularJS
-#     - tag: Node
-
-
-# - name: ChatGPT from Scratch
-#   descr: "Demonstrated GPT architecture inlcuding embedding layer, positional encoding, multihead attention mechanism from scratch in pytorch, trained on WikiText-103 dataset"
-#   demo: ""
-#   tags:
-#     - tag: LLM
-#     - tag: Multi-head Attention
-#     - tag: Embeddings
-#     - tag: PyTorch
-- name: Longformer
+- name: Longformer Attention Research
   descr:
-    - "Implemented sliding window attention from the <a href='https://arxiv.org/abs/2004.05150' title='Longformer' style='color: #3498db; text-decoration: underline;'>Longformer</a> in GPT, demonstrating improvements on computational efficiency and scalability to handle longer sequences."
-    - "Experimented with wikitext-103 dataset to measure training complexities, cross-entropy loss, and perplexity for both standard self-attention and sliding window models."
-    - "Aimed to demonstrate linear complexity over quadratic complexity for large-scale document classification tasks."
-  demo: "https://github.com/p9verma/longformer/blob/main/ChatGPTfromScratch_Final_Report_Verma.pdf"
+  - Implemented sliding-window attention from Longformer in a GPT-style transformer to study long-context efficiency and scalability.
+  - Compared standard self-attention and sliding-window attention on WikiText-103 using compute complexity, cross-entropy
+    loss, and perplexity.
+  demo: https://github.com/p9verma/longformer/blob/main/ChatGPTfromScratch_Final_Report_Verma.pdf
   tags:
-    - tag: Transformer
-    - tag: LLM
-    - tag: Efficient Attention
-    - tag: Long sequence analysis
-
+  - tag: Transformer
+  - tag: LLM
+  - tag: Efficient Attention
+  - tag: Long sequence analysis
 - name: Financial Advising Agent
   descr:
-    - "Designed and implemented a Retrieval-Augmented Generation (RAG) system to optimize financial decision-making by providing real-time data retrieval and context-aware responses for financial analysis."
-    - "Integrated OpenAI APIs, LangChain, and Edgar dataset for enhanced natural language processing capabilities, enabling more accurate and contextual responses in the financial domain."
-    - "Employed RAGAS framework to evaluate agent on RAG response times, hallucination rates, precision, and recall."
-  demo: "https://github.com/peterphan1101/Artificial_Intelligence_Projects/tree/main"
+  - Built a financial RAG application with OpenAI APIs, LangChain, and SEC EDGAR data to retrieve source information and generate
+    context-aware responses.
+  - Evaluated hallucination rates, precision, recall, and response times with RAGAS.
+  demo: https://github.com/peterphan1101/Artificial_Intelligence_Projects/tree/main
   tags:
-    - tag: RAG
-    - tag: LangChain
-    - tag: Prompt Augmentation
-
+  - tag: RAG
+  - tag: LangChain
+  - tag: Prompt Augmentation
+- name: ChatGPT from Scratch
+  descr:
+  - Implemented GPT architecture in PyTorch, including token embeddings, positional encoding, and multi-head attention; trained
+    on WikiText-103.
+  tags:
+  - tag: PyTorch
+  - tag: Transformers
+  - tag: Language Modeling
 - name: ML Capstone Project Multi-pronged Attention Network for Stock Forecasting (MAN-SF)
   descr:
-    - "Developed an ML model integrating multiple data modalities, such as social media text (sentiment analysis) and time series data, to enhance stock price forecasting accuracy and understanding of market trends."
-    - "Improved model accuracy by 12% over standard methods and demonstrated the effectiveness of PCA in reducing noise in stock market data."
-    - "Evaluated the model using real-time stock data and presented findings."
-  demo: "https://github.com/cherh63/ML-StockPredict/blob/main/Project%20Report.pdf"
+  - Developed an ML model integrating multiple data modalities, such as social media text (sentiment analysis) and time series
+    data, to enhance stock price forecasting accuracy and understanding of market trends.
+  - Improved model accuracy by 12% over standard methods and demonstrated the effectiveness of PCA in reducing noise in stock
+    market data.
+  - Evaluated the model using real-time stock data and presented findings.
+  demo: https://github.com/cherh63/ML-StockPredict/blob/main/Project%20Report.pdf
   tags:
-    - tag: MAN-SF
-    - tag: Multimodal
-    - tag: Sentiment Analysis
-    - tag: Time Series
-
+  - tag: MAN-SF
+  - tag: Multimodal
+  - tag: Sentiment Analysis
+  - tag: Time Series
 - name: Big Fat Charity
   descr:
-    - "Winner, HackDuke Capital One Best Financial Hack, created an application to allow users to make informed and efficient charity donations using Big Data analysis."
-    - "Used Google Maps API to visualize and compare charity needs and information from over 8000 charities."
-    - "Provided an interactive map to visualize charity need in the US on five metrics and average overall score using Google Maps API."
-  demo: "https://github.com/bubbajoe/BigFatCharity"
+  - Winner, HackDuke Capital One Best Financial Hack, created an application to allow users to make informed and efficient
+    charity donations using Big Data analysis.
+  - Used Google Maps API to visualize and compare charity needs and information from over 8000 charities.
+  - Provided an interactive map to visualize charity need in the US on five metrics and average overall score using Google
+    Maps API.
+  demo: https://github.com/bubbajoe/BigFatCharity
   tags:
-    - tag: Big Data Visualization
-    - tag: Google Maps API
-    - tag: JavaScript
-
+  - tag: Big Data Visualization
+  - tag: Google Maps API
+  - tag: JavaScript
 - name: Automated License Plate Recognition
   descr:
-    - "Utilized OpenCV and YOLO for real-time license plate detection."
-    - "Packaged the solution in Docker for deployment."
-  demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/VIrtualSearch/SystemsPlan.md"
+  - Utilized OpenCV and YOLO for real-time license plate detection.
+  - Packaged the solution in Docker for deployment.
+  demo: https://github.com/p9verma/verma-705.603spring24/blob/master/VIrtualSearch/SystemsPlan.md
   tags:
-    - tag: OpenCV
-    - tag: YOLO
-    - tag: Docker
-
+  - tag: OpenCV
+  - tag: YOLO
+  - tag: Docker
 - name: Alzheimer's Diagnosis using Neural Networks
   descr:
-    - "Implemented fuzzy logic-based neural networks for diagnosing Alzheimer’s disease."
+  - Implemented fuzzy logic-based neural networks for diagnosing Alzheimer’s disease.
   tags:
-    - tag: Fuzzy Logic
-
+  - tag: Fuzzy Logic
 - name: Fraud Detection
   descr:
-    - "Developed a fraud detection model to analyze suspicious transactions using ML techniques."
-  demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/FraudDetection/SystemsPlan.md"
-
+  - Developed a fraud detection model to analyze suspicious transactions using ML techniques.
+  demo: https://github.com/p9verma/verma-705.603spring24/blob/master/FraudDetection/SystemsPlan.md
 - name: Sentiment Analysis
   descr:
-    - "Performed sentiment analysis on large datasets using natural language processing techniques."
-  demo: "https://github.com/p9verma/verma-705.603spring24/blob/master/Sentiment_Analysis/SystemsPlan.md"
+  - Performed sentiment analysis on large datasets using natural language processing techniques.
+  demo: https://github.com/p9verma/verma-705.603spring24/blob/master/Sentiment_Analysis/SystemsPlan.md

@@ -1,156 +1,151 @@
-# > title: Name of your timeline entry, university or work place
-# > title-url: Link to your timeline entry, university or work place
-# > date: Time span
-# > subtitle: The description under the title
-# > tags: List of tags you want to associate with the entry
-# > timeline-side: The side on which you want to display the entry: left or right
-
-# Example of a timeline entry
-# - title: airbnb
-#   title-url: https://example.com/
-#   date: Sep 2019 - Present
-#   subtitle: Fullstack Developer
-#   tags:
-#     - tag: React
-#     - tag: Javascript
-#     - tag: Ruby
-#     - tag: Rails
-#   timeline-side: right
-
-- title: General Dynamics Information Technology
-  title-url: https://www.gdit.com/capabilities/technology-solutions/artificial-intelligence/
-  date: February 2023 – Present
+- title: Columbia Business School
+  date: Expected May 2028
   subtitle:
-    - "Senior Data Scientist, AI Researcher"
-    - "Secured $2M+ in funding by developing proposals for federal clients, enabling data-driven insights for business outcomes."
-    - "Improved mission-critical forecasting accuracy by ~28% through ML model development, synthetic data generation with Stable Diffusion, and Barlow Twins contrastive learning."
-    - "Worked cross-functionally on SOTA AI systems, using CNNs, MobileNet, and Vision Transformers for live target detection on challenging datasets."
-    - "Recognized with Spot/Hero award for collaboration and innovation."
-  tags:
-    - tag: CNNs
-    - tag: Transformers
-    - tag: Contrastive Learning
-    - tag: Model Development
-    - tag: Data Science
+  - Master of Business Administration
+  timeline-side: left
+  title-url: https://business.columbia.edu/
+- title: Microsoft
+  date: July 2025 – Present
+  subtitle:
+  - Software Engineer II · Cloud + AI
+  - Drove 10+ production releases for Microsoft Fabric and Power BI in specialized sovereign clouds, coordinating engineering,
+    infrastructure, platform, and compliance teams.
+  - Reduced avoidable on-call incidents approximately 25% by designing PRShield, an OpenAI API-powered tool that identifies
+    risky code and configuration changes before deployment.
+  - Build AI-powered tools for code review, troubleshooting, and developer productivity; turn engineering requirements into
+    reusable integration patterns.
   timeline-side: right
-
-- title: General Dynamics Information Technology
-  title-url: https://www.gdit.com/
-  date: October 2023
-  subtitle: 
-    - Financial Analysis Product Lead
-    - Drove over $300,000 in savings by developing analytics dashboards for risk and productivity management.
-    - Communicated recommendations to executives using PowerBI and financial data modeling to optimize resource allocation.
-    - Built strong client relationships and showcased data-driven solutions for financial performance management.
+  title-url: https://www.microsoft.com/
   tags:
-    - tag: Python
-    - tag: TensorFlow
-    - tag: AWS
-    - tag: Data Analysis
-  timeline-side: right
-
-- title: General Dynamics Information Technology
-  title-url: https://www.gdit.com/
-  date: February 2023 - December 2023
-  subtitle: 
-    - Software Engineer
-    - Managed feature development and user stories for an application with 20,000+ users to support mission-critical objectives.
-    - Prioritized system roadmap based on client and user feedback, enhancing satisfaction and safety.
-  tags:
-    - tag: Ruby on Rails
-    - tag: JavaScript
-    - tag: Agile/Scrum
-  timeline-side: right
-
+  - tag: Azure
+  - tag: OpenAI APIs
+  - tag: Cloud Architecture
+  - tag: AI Engineering
 - title: Johns Hopkins University
-  title-url: https://www.jhu.edu/academics/graduate-studies/
-  date: January 2023
-  subtitle: 
-    - Began M.S. in Artificial Intelligence
-    - Focus on LLM research.
-    - Completed coursework in advanced machine learning, AI, and data science.
-  tags:
-    - tag: Artificial Intelligence
-    - tag: Large Language Models
-    - tag: Fuzzy Logic
-    - tag: Machine Learning
-    - tag: Data Science
+  date: '2025'
+  subtitle:
+  - M.S. in Artificial Intelligence
+  - Whiting School of Engineering. Focus on LLMs, machine learning, and AI-enabled systems.
   timeline-side: left
-
-- title: Expedia Group
-  title-url: https://expediagroup.com/
-  date: June 2021 – February 2023
-  subtitle: 
-    - Software Engineer I & II
-    - Spearheaded development of a virtual agent, achieving 90% first-contact resolution and reducing response times by over 99%.
-    - Improved chatbot satisfaction scores by 25% through feature prioritization based on user research.
-    - Led migration to Kubernetes, reducing processing costs by 15% for payment systems.
-    - Optimized fraud detection rates through serverless solutions, improving time and cost metrics.
-  tags:
-    - tag: Site Observability
-    - tag: Chatbot Development
-    - tag: Kubernetes
-    - tag: Fraud Detection
+  title-url: https://engineering.jhu.edu/
+- title: MedNTech
+  date: December 2024 – Present
+  subtitle:
+  - Technical Co-Lead · International Executive Board
+  - Set AI strategy, technical roadmaps, and model evaluation frameworks across engineers, researchers, and external technology
+    partners.
+  - Translate stakeholder requirements into model/application integration and pilot deployment plans, balancing privacy, data
+    localization, offline access, and reliability.
+  - Represented MedNTech at the Paris Peace Forum AI Action Summit; the project was selected among the top 50 of 770.
   timeline-side: right
-
+  title-url: https://medntech.org/
+  tags:
+  - tag: AI Strategy
+  - tag: Model Evaluation
+  - tag: Technical Leadership
+- title: General Dynamics Information Technology
+  date: December 2023 – July 2025
+  subtitle:
+  - Senior Data Scientist · AI Research Specialist
+  - Secured $2M+ in federal contract funding by developing AI research agendas, prototypes, and proposals and presenting recommendations
+    to clients and executives.
+  - Improved forecasting accuracy approximately 36% with Python, TensorFlow, and PyTorch models using multimodal vision-language
+    architectures, transformers, and CNNs.
+  - Built a LLaVA-Mistral-7B multimodal LLM with PEFT/LoRA, DeepSpeed, and RAG; cut ML compute time more than 80% using CUDA
+    on AWS EKS, Kubernetes, Docker, and AMIs.
+  - Mentored 3 engineers and received the Spot/Hero Award for collaboration and innovation in AI model development.
+  timeline-side: right
+  title-url: https://www.gdit.com/
+  tags:
+  - tag: PyTorch
+  - tag: TensorFlow
+  - tag: Multimodal LLMs
+  - tag: AWS EKS
+- title: General Dynamics Information Technology
+  date: February 2023 – December 2023
+  subtitle:
+  - Lead Software Engineer · Data Lead
+  - Delivered $300K+ in savings through Python analytics covering 16+ project teams and 320+ personnel; modeled delivery and
+    budget risk and presented resource-allocation recommendations to executives.
+  - Led discovery, roadmap priorities, user stories, demos, and releases for an application serving 20,000+ users; translated
+    client feedback into technical requirements.
+  timeline-side: right
+  title-url: https://www.gdit.com/
+  tags:
+  - tag: Client Solutions
+  - tag: Python
+  - tag: Analytics
+  - tag: Agile
+- title: Expedia Group
+  date: June 2021 – February 2023
+  subtitle:
+  - Software Engineer I & II
+  - Achieved 90% first-contact resolution with a RAG-powered Observability Virtual Agent, reducing response time from 4 days
+    to seconds.
+  - Cut manual content-ingestion effort 80% and improved chatbot satisfaction approximately 25% through user research and
+    feature prioritization.
+  - Reduced processing costs 15% through a Kubernetes migration; supported monitoring and alerting for 5 payment services.
+  - Increased risk-data refresh frequency from once to 24 times daily and improved processing efficiency approximately 20x
+    with a serverless data workflow.
+  timeline-side: right
+  title-url: https://expediagroup.com/
+  tags:
+  - tag: RAG
+  - tag: Kubernetes
+  - tag: Data Pipelines
+  - tag: Production Monitoring
 - title: Virginia Tech
-  title-url: https://news.vt.edu/awards/students/deans-list/deans-list-spring-2021.html
+  title-url: https://cs.vt.edu/
   date: May 2021
-  subtitle: 
-    - Graduated
-    - B.S. in Computer Science, with a minor in Cybersecurity.
-    - Achieved academic recognition on the Dean's List.
+  subtitle:
+  - B.S. in Computer Science
+  - Minor in Cybersecurity.
   timeline-side: left
-
 - title: Future Housing Leaders (Fannie Mae)
   title-url: https://www.futurehousingleaders.com/
   date: June 2020 - July 2020
-  subtitle: 
-    - Completed a Data Science Course with Polygon Research
-    - Focused on housing market data analysis and predictions.
-    - Gained experience with ML time series forecasting and data visualization.
+  subtitle:
+  - Completed a Data Science Course with Polygon Research
+  - Focused on housing market data analysis and predictions.
+  - Gained experience with ML time series forecasting and data visualization.
   tags:
-    - tag: Data Science
-    - tag: Housing Market
-    - tag: Real Estate
+  - tag: Data Science
+  - tag: Housing Market
+  - tag: Real Estate
   timeline-side: left
-
 - title: Fannie Mae
-  title-url: https://example.com/
+  title-url: https://www.fanniemae.com/
   date: June 2020 - August 2020
-  subtitle: 
-    - Software Engineer Intern
-    - Supported Capital Markets team as a Software Engineer Intern, applying Agile methodologies.
-    - Practiced CI/CD and SDLC, contributing to the development of solutions for the Secondary Housing Market.
+  subtitle:
+  - Software Engineer Intern
+  - Supported Capital Markets team as a Software Engineer Intern, applying Agile methodologies.
+  - Practiced CI/CD and SDLC, contributing to the development of solutions for the Secondary Housing Market.
   tags:
-    - tag: Capital Markets
-    - tag: AWS
-    - tag: Data Visualization
+  - tag: Capital Markets
+  - tag: AWS
+  - tag: Data Visualization
   timeline-side: right
-
 - title: Cloud 9
   title-url: https://www.cloudninetech.com/
   date: May 2019 - August 2019
-  subtitle: 
-    - Intern
-    - Served as a Business Development Intern, involved in program planning and management.
-    - Assisted with database management using RDBMS.
+  subtitle:
+  - Intern
+  - Served as a Business Development Intern, involved in program planning and management.
+  - Assisted with database management using RDBMS.
   tags:
-    - tag: Program Planning
-    - tag: RDBMS
+  - tag: Program Planning
+  - tag: RDBMS
   timeline-side: right
-
 - title: Virginia Tech
   title-url: https://cs.vt.edu/
   date: August 2017
-  subtitle: 
-    - Began B.S. in Computer Science
+  subtitle:
+  - Began B.S. in Computer Science
   timeline-side: left
-
 - title: Children's Science Center
   title-url: https://www.childsci.org/
   date: 2016 - 2017
-  subtitle: 
-    - STEMtender
-    - Volunteered and worked as a "STEMtender", promoting STEM education and engagement for children.
+  subtitle:
+  - STEMtender
+  - Volunteered and worked as a "STEMtender", promoting STEM education and engagement for children.
   timeline-side: right

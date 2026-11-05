@@ -16,6 +16,7 @@
   <!-- CSS Links -->
   <link rel="stylesheet" href="{{ '/assets/css/main.min.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ '/assets/css/vendors.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/portfolio-updates.css" | relative_url }}">
   <!-- JavaScript Files -->
   <script src="{{ '/assets/js/particles.min.js' | prepend: site.baseurl }}" defer></script>
   <script src="{{ '/assets/js/vendors.min.js' | prepend: site.baseurl }}" defer></script>
@@ -57,6 +58,7 @@
 </head>
 
 <body>
+  <nav class="portfolio-nav" aria-label="Main navigation"><a href="#about">About</a><a href="#consulting">Consulting</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
   <!-- Navbar -->
 <!--   <div class="navbar">
     <a href="{{ site.baseurl }}/">Work</a>
@@ -76,27 +78,30 @@
   {% include landing-page.html %}
   <div class="layout">
     {% if site.show_aboutme_card %}
-    <section class="card neumorphism-card-big">
+    <section id="about" class="card neumorphism-card-big">
       {% include section-aboutme.html %}
     </section>
     {% endif %}
+    <section id="consulting" class="card neumorphism-card-big">
+      {% include section-consulting.html %}
+    </section>
     {% if site.show_skills_card %}
     <section class="card neumorphism-card-big">
       {% include section-skills.html %}
     </section>
     {% endif %}
     {% if site.show_timeline_card %}
-    <section class="card neumorphism-card-big">
+    <section id="experience" class="card neumorphism-card-big">
       {% include section-timeline.html %}
     </section>
     {% endif %}
     {% if site.show_projects_card %}
-    <section class="card neumorphism-card-big">
+    <section id="projects" class="card neumorphism-card-big">
       {% include section-projects.html %}
     </section>
     {% endif %}
     {% if site.show_contact_card %}
-    <section class="card neumorphism-card-big">
+    <section id="contact" class="card neumorphism-card-big">
       {% include section-contact.html %}
     </section>
     {% endif %}

@@ -1,61 +1,44 @@
-# > name: Name of your Dev Tool
-# > weight: Describes how good you know the tool - values from 1 up to 5
-#
-# Example of a Dev Tool
-# - name: Git
-#   weight: 5
-
 - name: Git
   weight: 5
-
 - name: Bash
   weight: 3
-
 - name: Agile/Scrum
   weight: 3
-
 - name: AWS
   weight: 1
-
 - name: Terraform
   weight: 1
-
 - name: Jenkins
   weight: 4
-
 - name: Linux
   weight: 2
-
 - name: Jupyter
   weight: 2
-
 - name: Anaconda
   weight: 3
-
 - name: VS Code
   weight: 1
-
 - name: Weka
   weight: 1
-
 - name: Postman
   weight: 2
-
 - name: Confluence
   weight: 2
-
 - name: Jira
   weight: 5
-
 - name: Tableau
   weight: 3
-
 - name: Open AI API
   weight: 2
-
 - name: Docker
   weight: 2
-
 - name: Kubernetes
   weight: 2
-
+- name: Azure
+  weight: 3
+- name: RAGAS
+  weight: 3
+- name: CUDA
+  weight: 3
+- name: DeepSpeed
+  weight: 3

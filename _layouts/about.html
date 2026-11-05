@@ -119,15 +119,15 @@
     <div class="about-container">
       <div class="about-text">
         <h1>Why hello there!</h1>
-        <p>I enjoy the pursuit of craft, solving complex problems, and mentoring others.</p>
+        <p>{{ site.about_me_description }}</p>
         <div class="about-details">
           <div>
             <strong>Experience</strong>
-            <p>5 years</p>
+            <p>5+ years in AI, software, and cloud engineering</p>
           </div>
           <div>
-            <strong>Superpower</strong>
-            <p>High fidelity prototyping</p>
+            <strong>Education</strong>
+            <p>M.S. Artificial Intelligence, Johns Hopkins<br>MBA, Columbia Business School — Expected May 2028</p>
           </div>
           <div>
             <strong>Reading</strong>
@@ -146,7 +146,7 @@
   </section>
 
   <footer class="footer">
-    <p>&copy; 2024 Designed & Developed by Punita Verma</p>
+    <p>&copy; {{ site.time | date: "%Y" }} Designed & Developed by Punita Verma</p>
   </footer>
 </body>
 </html>
