@@ -3,3 +3,5 @@
 @media(max-width:430px){.profile-brief dl{display:none}.profile-brief{padding:0;border-top:0}.hero{gap:14px;padding-top:28px;padding-bottom:28px}.hero-description{margin-bottom:22px}}
 
 .degree-summary>span{display:block;margin-top:10px;line-height:1.45}.degree-summary small{display:block;margin-top:3px;color:var(--muted);font-size:11px}.degree-summary b{font-weight:700}
+
+@media(min-width:761px){.work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
